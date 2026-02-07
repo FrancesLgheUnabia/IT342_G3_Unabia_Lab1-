@@ -1,0 +1,29 @@
+# Node
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.env
+
+# Build outputs
+dist/
+build/
+coverage/
+
+# Mobile / native
+android/.gradle/
+ios/Pods/
+.expo/
+
+# IDEs
+.vscode/
+.idea/
+
+# Misc
+.DS_Store
+*.log
