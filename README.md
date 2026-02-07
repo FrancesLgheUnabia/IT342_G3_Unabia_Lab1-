@@ -14,20 +14,20 @@ hmmmmm I think soon
 git clone https://github.com/FrancesLgheUnabia/IT342_G3_Unabia_Lab1-.git
 
 
-2. Create and activate a virtual environment
+### 2. Create and activate a virtual environment
 
 ```powershell
 python -m venv venv
 venv\Scripts\activate    # Windows
 ```
 
-3. Install dependencies
+### 3. Install dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-4. Configure environment
+### 4. Configure environment
 
 Create a `.env` with your settings (example):
 
@@ -36,7 +36,7 @@ DATABASE_URL=postgresql://username:password@host:port/dbname
 SECRET_KEY=your_secret_key
 ```
 
-5. Migrate database and run
+### 5. Migrate database and run
 
 ```bash
 python manage.py migrate
