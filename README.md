@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # IT342_G3_Unabia_Lab1-
 =======
 🏆 (Temporary Title) RentMate
