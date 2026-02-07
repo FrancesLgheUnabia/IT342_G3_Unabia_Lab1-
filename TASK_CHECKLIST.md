@@ -6,7 +6,6 @@
 - [x] **Documentation:** Create `README.md` with installation steps.
 - [x] **Backend:** Setup Python virtual environment (`venv`).
 - [x] **Backend:** Install Django & Django REST Framework (`requirements.txt`).
-- [x] **Frontend:** Initialize Web project (React/HTML).
 
 ## IN-PROGRESS
 - [ ] **Backend:** Configure Database connection (PostgreSQL/SQLite) in `.env`.
