@@ -1,58 +1,31 @@
-# 🏆 (Temporary Title) RentMate
+# 🏡 RentMate
+
+## 📖 Project Description
+RentMate is a comprehensive property rental platform designed to simplify the process of finding and managing rental properties. It connects tenants with landlords through a seamless interface, offering features like property listings, advanced search filters, and user profile management.
+
+The project is structured into three main components:
+* **Backend:** Handles API logic, database management, and authentication.
+* **Web:** A responsive web interface for users to browse and manage listings.
+* **Mobile:** A mobile application for on-the-go access.
 
 ---
 
-🚀 Features (Planned)
-```
-User Authentication
-Property Listing Management
-Advanced Search & Filtering
-Dashboard & Profile
-Map Integration
-```
+## 🛠️ Technologies Used
+
+| Component | Technology |
+| :--- | :--- |
+| **Backend** | Python, Django / Django REST Framework |
+| **Database** | PostgreSQL / SQLite |
+| **Web** | React.js, HTML5, CSS3 |
+| **Mobile** | React Native / Flutter *(Update this based on your stack)* |
+| **Tools** | Git, VS Code, Postman |
+
 ---
 
 ## ⚙️ Setup & Run Instructions
 
-### 1️⃣ Clone the repository
+### 1. Clone the Repository
+Open your terminal and run:
 ```bash
-git clone https://github.com/FrancesLgheUnabia/IT342_G3_Unabia_Lab1-.git
-```
-
-### 2. Create and activate a virtual environment
-
-```powershell
-python -m venv venv
-venv\Scripts\activate    # Windows
-```
-
-### 3. Install dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-### 4. Configure environment
-
-Create a `.env` with your settings (example):
-
-```
-DATABASE_URL=postgresql://username:password@host:port/dbname
-SECRET_KEY=your_secret_key
-```
-
-### 5. Migrate database and run
-
-```bash
-python manage.py migrate
-python manage.py runserver
-```
-
-Open http://127.0.0.1:8000/ in your browser.
-
----
-
-- Update this README with project specifics (architecture, services, deployment).
-- If you'd like I can: clean the repo history, reinitialize git, and push this as the initial commit.
-
-```
+git clone [https://github.com/FrancesLgheUnabia/IT342_G3_Unabia_Lab1-.git](https://github.com/FrancesLgheUnabia/IT342_G3_Unabia_Lab1-.git)
+cd IT342_G3_Unabia_Lab1-
