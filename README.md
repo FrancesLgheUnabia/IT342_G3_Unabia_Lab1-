@@ -9,31 +9,16 @@ hmmmmm I think soon
 
 ---
 
-👨‍💻 Team Members
-Name	                Role	    CIT-U Email
-Frances Lghe Unabia	    Developer	frances.unabia@cit.edu
-
----
-
 ## ⚙️ Setup & Run Instructions
 
 ### 1️⃣ Clone the repository
 ```bash
 git clone https://github.com/FrancesLgheUnabia/IT342_G3_Unabia_Lab1-.git
-# RentMate
-
-RentMate is a simple property-rental project scaffold for coursework and collaboration.
 
 ## Features (Planned)
 - Property listings
 - Booking flow
 - User authentication
-
-## Team
-
-| Name | Role | Email |
-|----|---:|---|
-| Frances Lghe Unabia | Developer | frances.unabia@cit.edu |
 
 ---
 
@@ -79,7 +64,6 @@ Open http://127.0.0.1:8000/ in your browser.
 
 ---
 
-## Notes
 - Update this README with project specifics (architecture, services, deployment).
 - If you'd like I can: clean the repo history, reinitialize git, and push this as the initial commit.
 
