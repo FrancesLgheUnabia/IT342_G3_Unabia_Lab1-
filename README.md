@@ -13,21 +13,6 @@ hmmmmm I think soon
 ```bash
 git clone https://github.com/FrancesLgheUnabia/IT342_G3_Unabia_Lab1-.git
 
-## Features (Planned)
-- Property listings
-- Booking flow
-- User authentication
-
----
-
-## Quick Start
-
-1. Clone the repository
-
-```bash
-git clone https://github.com/FrancesLgheUnabia/IT342_G3_Unabia_Lab1-.git
-cd IT342_G3_Unabia_Lab1-
-```
 
 2. Create and activate a virtual environment
 
