@@ -3,7 +3,11 @@
 ---
 
 🚀 Features (Planned)
-hmmmmm I think soon
+User Authentication
+Property Listing Management
+Advanced Search & Filtering
+Dashboard & Profile
+Map Integration
 
 ---
 
