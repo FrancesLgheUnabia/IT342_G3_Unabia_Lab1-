@@ -1,11 +1,19 @@
 # ✅ Task Checklist
 
 ## DONE
-- [x] **Repo Setup:** Initialize Git repository and link to GitHub.
-- [x] **Structure:** Create main folder structure (`backend`, `web`, `mobile`).
-- [x] **Documentation:** Create `README.md` with installation steps.
-- [x] **Backend:** Setup Python virtual environment (`venv`).
-- [x] **Backend:** Install Django & Django REST Framework (`requirements.txt`).
+- [x] **Repo Setup:** Initialize Git repository and link to GitHub. (commit: 7b478d4e2d8182570fd7d79779d0844f2d917dd5)
+- [x] **Documentation:** Create `README.md` with installation steps. (commmit: c3b279dbf11649a4bdc9408b0cd9d2a4a98723f2)
+- [x] **TASK_CHECKLIST.md created/updated:** (commit: 52d968fe7b0907686d3cf07f68dec6741818cd48) 
+- [x] **ERD** 
+- [x] **UML diagrams** 
+- [x] **Screenshots of Web UI (Register, Login, Dashboard/Profile, Logout)**
+- [x] **README.md updated with required sections:**
+  - Project description  
+  - Technologies used  
+  - Steps to run backend  
+  - Steps to run web app  
+  - Steps to run mobile app  
+  - List of API endpoints  
 
 ## IN-PROGRESS
 - [ ] **Backend:** Configure Database connection (PostgreSQL/SQLite) in `.env`.
