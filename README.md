@@ -3,12 +3,13 @@
 ---
 
 🚀 Features (Planned)
+```
 User Authentication
 Property Listing Management
 Advanced Search & Filtering
 Dashboard & Profile
 Map Integration
-
+```
 ---
 
 ## ⚙️ Setup & Run Instructions
