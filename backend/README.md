@@ -11,6 +11,7 @@ The project is structured into three main components:
 ---
 
 ## 🛠️ Technologies Used
+
 | Component | Technology |
 | :--- | :--- |
 | **Backend** | Python, Django / Django REST Framework |

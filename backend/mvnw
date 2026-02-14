@@ -1,0 +1,26 @@
+#!/usr/bin/env bash
+set -e
+
+# Maven Wrapper - Unix shell script
+# Downloads maven-wrapper.jar if missing and runs it
+
+PRG="$0"
+PRGDIR="$(cd "$(dirname "$PRG")" && pwd)"
+WRAPPER_DIR="$PRGDIR/.mvn/wrapper"
+WRAPPER_JAR="$WRAPPER_DIR/maven-wrapper.jar"
+
+if [ ! -f "$WRAPPER_JAR" ]; then
+  echo "maven-wrapper.jar not found, downloading..."
+  mkdir -p "$WRAPPER_DIR"
+  if command -v curl >/dev/null 2>&1; then
+    curl -fL -o "$WRAPPER_JAR" "https://repo1.maven.org/maven2/io/takari/maven-wrapper/0.5.6/maven-wrapper-0.5.6.jar"
+  elif command -v wget >/dev/null 2>&1; then
+    wget -O "$WRAPPER_JAR" "https://repo1.maven.org/maven2/io/takari/maven-wrapper/0.5.6/maven-wrapper-0.5.6.jar"
+  else
+    echo "Neither curl nor wget is available. Please download the maven-wrapper.jar and place it at:"
+    echo "  $WRAPPER_JAR"
+    exit 1
+  fi
+fi
+
+exec java -jar "$WRAPPER_JAR" "$@"
