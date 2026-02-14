@@ -1,0 +1,107 @@
+<!-- ✅ UPDATED frontend/index.html (copy-paste whole file) -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RentMate - Auth</title>
+    <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+    <div class="bg-orb orb-1"></div>
+    <div class="bg-orb orb-2"></div>
+    <div class="bg-orb orb-3"></div>
+
+    <main class="page">
+        <section class="card" aria-label="Authentication card">
+            <header class="card__header">
+                <div class="brand">
+                    <div class="logo" aria-hidden="true">FL</div>
+                    <div>
+                        <p class="muted">User Registration & Authentication</p>
+                    </div>
+                </div>
+
+                <div class="switch">
+                    <button id="btnSignIn" class="switch__btn is-active" type="button">Sign In</button>
+                    <button id="btnSignUp" class="switch__btn" type="button">Sign Up</button>
+                </div>
+            </header>
+
+            <div class="forms">
+                <!-- SIGN IN -->
+                <form id="loginForm" class="form is-visible" autocomplete="on">
+                    <h2>Welcome back</h2>
+                    <p class="muted">Sign in to continue.</p>
+
+                    <div class="field">
+                        <label for="loginEmail">Email</label>
+                        <input id="loginEmail" name="email" type="email" placeholder="you@example.com" required />
+                    </div>
+
+                    <div class="field">
+                        <label for="loginPassword">Password</label>
+                        <input id="loginPassword" name="password" type="password" placeholder="••••••••" required
+                            minlength="6" />
+                    </div>
+
+                    <button class="primary" type="submit">Sign In</button>
+
+                    <div class="hint">
+                        Don’t have an account?
+                        <button class="link" type="button" id="goToSignUp">Create one</button>
+                    </div>
+                </form>
+
+                <!-- SIGN UP -->
+                <form id="registerForm" class="form" autocomplete="on">
+                    <h2>Create account</h2>
+                    <p class="muted">Sign up in seconds.</p>
+
+                    <div class="field">
+                        <label for="regName">Full Name</label>
+                        <input id="regName" name="name" type="text" placeholder="Juan Dela Cruz" required />
+                    </div>
+
+                    <div class="field">
+                        <label for="regEmail">Email</label>
+                        <input id="regEmail" name="email" type="email" placeholder="you@example.com" required />
+                    </div>
+
+                    <div class="field">
+                        <label for="regPassword">Password</label>
+                        <input id="regPassword" name="password" type="password" placeholder="At least 6 characters"
+                            required minlength="6" />
+                    </div>
+
+                    <!-- ✅ NEW: Confirm Password -->
+                    <div class="field">
+                        <label for="regConfirmPassword">Confirm Password</label>
+                        <input id="regConfirmPassword" name="confirmPassword" type="password"
+                            placeholder="Re-type your password" required minlength="6" />
+                    </div>
+
+                    <button class="primary" type="submit">Sign Up</button>
+
+                    <div class="hint">
+                        Already have an account?
+                        <button class="link" type="button" id="goToSignIn">Sign in</button>
+                    </div>
+                </form>
+            </div>
+
+            <footer class="card__footer">
+                <div class="toast" id="toast" role="status" aria-live="polite"></div>
+                <small class="muted">
+                    Tip: If your backend is on a different port, update <code>API_BASE</code> in <code>script.js</code>.
+                </small>
+            </footer>
+        </section>
+    </main>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
